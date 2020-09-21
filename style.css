@@ -1,0 +1,29 @@
+.title{
+    font-size: 120pt;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.board{
+    background-color: rgb(180, 180, 180);
+}
+.box {
+    border-style: double;
+    border-color: red;
+    margin: 3pt;
+    font-size: 50pt;
+    position: relative;
+}
+.box span{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 33%;
+    padding-bottom: 33%;
+}
+.correct{
+    border-color: green;
+}
